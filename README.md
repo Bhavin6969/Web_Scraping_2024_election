@@ -1,9 +1,5 @@
 # 2024 Indian General Election Analysis
-
-![image](https://github.com/Bhavin6969/Web_Scraping_2024_election/assets/103599813/f8a019cc-3eef-4b83-9d9f-7643d956dda9)
-
-![image](https://github.com/Bhavin6969/Web_Scraping_2024_election/assets/103599813/ffc838c2-1849-4a38-b4e5-42ee5972874d)
-
+![image](https://github.com/Bhavin6969/Web_Scraping_2024_election/assets/103599813/eefce856-9d33-4741-b08f-f7224aabb43e)
 
 1. **Election Scale**
    - Total seats: 543 (Lok Sabha strength)
@@ -45,3 +41,7 @@
     - Large Margins (>25%): NDA 55, INDIA bloc 24
     - Narrow Margins (5-10%): INDIA bloc 62, NDA 60
     - NDA dominated large margin victories, INDIA bloc led in close contests
+
+
+![image](https://github.com/Bhavin6969/Web_Scraping_2024_election/assets/103599813/f8a019cc-3eef-4b83-9d9f-7643d956dda9) ![image](https://github.com/Bhavin6969/Web_Scraping_2024_election/assets/103599813/ffc838c2-1849-4a38-b4e5-42ee5972874d)
+
