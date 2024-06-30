@@ -1,10 +1,9 @@
+# 2024 Indian General Election Analysis
+
 ![image](https://github.com/Bhavin6969/Web_Scraping_2024_election/assets/103599813/f8a019cc-3eef-4b83-9d9f-7643d956dda9)
 
 ![image](https://github.com/Bhavin6969/Web_Scraping_2024_election/assets/103599813/ffc838c2-1849-4a38-b4e5-42ee5972874d)
 
-
-
-# 2024 Indian General Election Analysis
 
 1. **Election Scale**
    - Total seats: 543 (Lok Sabha strength)
