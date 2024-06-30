@@ -2,26 +2,26 @@ import requests
 from bs4 import BeautifulSoup
 import pandas as pd
 
-# Step 1: Navigate to the results page
+
 url = "https://results.eci.gov.in/AcResultGenJune2024/index.htm"
 try:
     r = requests.get(url)
     r.raise_for_status()
     soup = BeautifulSoup(r.text, "lxml")
 
-    # Step 2: Look for the parliamentary constituencies results link
+   
     parl_link = soup.find(lambda tag: tag.name == 'a' and 'Parliamentary Constituencies' in tag.text)
     
     if parl_link and 'href' in parl_link.attrs:
         parl_url = 'https://results.eci.gov.in/AcResultGenJune2024/' + parl_link['href']
         print(f"Found Parliamentary Constituencies link: {parl_url}")
         
-        # Step 3: Navigate to Parliamentary Constituencies results
+        
         r = requests.get(parl_url)
         r.raise_for_status()
         soup = BeautifulSoup(r.text, "lxml")
         
-        # Step 4: Now look for the results table
+        
         table = soup.find("table", class_="table")
         
         if table:
@@ -30,7 +30,7 @@ try:
             print("Data scraped successfully:")
             print(df)
 
-            # Step 5: Save to CSV
+            
             csv_filename = "parliamentary_constituencies_election_results.csv"
             df.to_csv(csv_filename, index=False)
             print(f"\nData saved to {csv_filename}")
